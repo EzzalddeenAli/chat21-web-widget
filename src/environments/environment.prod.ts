@@ -17,7 +17,7 @@ export const environment = {
     appId: "1:907903462252:web:e00d381df1f9771ba32149",
     measurementId: "G-JZ4NQ4B2DB"
   },
-  apiUrl: 'https://api.tiledesk.com/v2',
+  apiUrl: 'https://api.tiledesk.com/v2/',
   tenant: 'tilechat',
   defaultLang : 'en',
   shemaVersion : '4'
