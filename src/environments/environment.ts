@@ -14,12 +14,14 @@ export const environment = {
   remoteTranslationsUrl: 'http://localhost:3000/',
   loadRemoteTranslations: true,
   firebase: {
-    apiKey: 'CHANGEIT',
-    authDomain: 'CHANGEIT',
-    databaseURL: 'CHANGEIT',
-    projectId: 'CHANGEIT',
-    storageBucket: 'CHANGEIT',
-    messagingSenderId: 'CHANGEIT'
+      apiKey: "AIzaSyDqdtylO2v88ZE6-GxGlL_pe_H6eww7IL4",
+    authDomain: "yemen-food.firebaseapp.com",
+    databaseURL: "https://yemen-food.firebaseio.com",
+    projectId: "yemen-food",
+    storageBucket: "yemen-food.appspot.com",
+    messagingSenderId: "907903462252",
+    appId: "1:907903462252:web:e00d381df1f9771ba32149",
+    measurementId: "G-JZ4NQ4B2DB"
   },
   apiUrl: 'http://localhost:3000/',
   tenant: 'tilechat',
