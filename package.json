@@ -24,7 +24,8 @@
     "chat21-web-widget": "./bin/chat21-web-widget"
   },
   "engines": {
-    "npm": "6.x"
+    "npm": "6.x",
+	"node": "12.x"
   },
   "dependencies": {
     "@angular/animations": "^5.0.2",
