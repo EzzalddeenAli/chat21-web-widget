@@ -11,7 +11,7 @@ export const environment = {
   version: require('../../package.json').version, // https://stackoverflow.com/questions/34907682/how-to-display-app-version-in-angular2
   remoteConfig: true,
   remoteConfigUrl: '/widget-config.json',
-  remoteTranslationsUrl: 'http://localhost:3000/',
+  remoteTranslationsUrl: 'https://ersal-chat.herokuapp.com/',
   loadRemoteTranslations: true,
   firebase: {
       apiKey: "AIzaSyDqdtylO2v88ZE6-GxGlL_pe_H6eww7IL4",
@@ -23,7 +23,7 @@ export const environment = {
     appId: "1:907903462252:web:e00d381df1f9771ba32149",
     measurementId: "G-JZ4NQ4B2DB"
   },
-  apiUrl: 'http://localhost:3000/',
+  apiUrl: 'https://ersal-chat.herokuapp.com/',
   tenant: 'tilechat',
   defaultLang : 'en',
   shemaVersion : '1'
