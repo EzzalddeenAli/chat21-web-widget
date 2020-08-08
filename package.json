@@ -14,13 +14,17 @@
     "serve": "ng serve",
     "start": "node server.js",
     "build": "ng build",
-    "test": "ng test",
+    "heroku-postbuild": "ng build --prod",
+	"test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --prod --base-href --output-hashing none  --build-optimizer=false"
   },
   "bin": {
     "chat21-web-widget": "./bin/chat21-web-widget"
+  },
+  "engines": {
+    "npm": "6.x"
   },
   "dependencies": {
     "@angular/animations": "^5.0.2",
